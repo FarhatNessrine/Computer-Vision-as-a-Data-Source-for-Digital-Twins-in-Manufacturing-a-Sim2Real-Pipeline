@@ -13,15 +13,27 @@ Instructions for environment setup and dependencies
 
 ## 📁 Repository Structure
 TTA-Sim2Real/
-├── training and Evaluation scripts/                 # Training scripts and YOLO configuration     
-├── Checkpoints/              # Models checkpoints
-├── dataset_preparation/          
-│   ├── convert_annotations.py    # Convert CVAT annotations to YOLO format
-│   ├── dataset_split.py          # Train/validation split scripts
-│   └── merge_datasets.py         # Combine synthetic and controlled datasets
-├── cvat_tutorial.md          # Step-by-step CVAT setup and usage guide
-├── requirements.txt          # Python requirements for YOLO training/inference
+
+├── training_evaluation/        # YOLO-World training and evaluation scripts
+
+├── dataset_preparation/        # Dataset preprocessing and merging scripts
+
+│    ├── convert_annotations.py
+
+│    ├── dataset_split.py
+
+│    └── merge_datasets.py
+
+├── checkpoints/                # Saved trained models
+
+├── docs/
+
+│    └── cvat_tutorial.md        # Annotation tutorial using CVAT
+
+├── requirements.txt
+
 ├── LICENSE
+
 └── README.md
 
 ## 📦 Models Checkpoints
@@ -29,13 +41,7 @@ To ensure reproducibility and maintain anonymity during the review process, all 
 
 
 🚀 Training
-YOLO training scripts are included in the training/ directory.
-
-📊 Evaluation
-Run evaluation using the model predictions and ground truth annotations, the YOLO evaluation scripts are included in evaluation/ directory.
-
-🔍 Inference
-TH eenference scripts are included in inference/ directory.
+YOLO-World training, evaluation, and enference scripts are included in the training_evaluation/ directory.
 
 ✍️ CVAT Annotation
 See cvat_tutorial.md for:
