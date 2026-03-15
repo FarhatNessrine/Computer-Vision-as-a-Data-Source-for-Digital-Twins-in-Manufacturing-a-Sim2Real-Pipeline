@@ -39,6 +39,13 @@ TTA-Sim2Real/
 ## 📦 Models Checkpoints
 To ensure reproducibility and maintain anonymity during the review process, all pretrained and finetuned models used in the **TTA-S2R (Tidal Turbine Assembly – Sim2Real)** study are hosted on an **anonymous Hugging Face repository**.  
 
+You can download the trained YOLO-World weights from Hugging Face:
+
+- **yolo_world_Before-Finetune-with-Spont-Data**
+[Download model](https://huggingface.co/NeFr25/Computer-Vision-as-a-Data-Source-for-Digital-Twins-in-Manufacturing-a-Sim2Real-Pipeline/resolve/main/yolo_world_Before-Finetune-with-Spont-Data.pt)
+- **yolo_world_After-Finetune-with-Spont-Data**
+  [Download model](https://huggingface.co/NeFr25/Computer-Vision-as-a-Data-Source-for-Digital-Twins-in-Manufacturing-a-Sim2Real-Pipeline/resolve/main/YOLO-World-After-Finetune-with-Spont-Data.pt)
+  
 
 🚀 Training
 YOLO-World training, evaluation, and enference scripts are included in the training_evaluation/ directory.
