@@ -47,8 +47,10 @@ You can download the trained YOLO-World weights from Hugging Face:
   [Download model](https://huggingface.co/NeFr25/Computer-Vision-as-a-Data-Source-for-Digital-Twins-in-Manufacturing-a-Sim2Real-Pipeline/resolve/main/YOLO-World-After-Finetune-with-Spont-Data.pt)
   
 
-🚀 Training
+## 🚀 Training and Evaluation
+
 YOLO-World training, evaluation, and enference scripts are included in the training_evaluation/ directory.
 
-✍️ CVAT Annotation
-See cvat_tutorial.md for:
+## ✍️ CVAT Annotation
+
+See cvat_tutorial.md
