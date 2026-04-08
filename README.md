@@ -20,9 +20,9 @@ TTA-Sim2Real/
 
 │    ├── convert_annotations.py
 
-│    ├── dataset_split.py
+│    ├── data_split.py
 
-│    └── merge_datasets.py
+│    └── data_merge.py
 
 ├── checkpoints/                # Saved trained models
 
